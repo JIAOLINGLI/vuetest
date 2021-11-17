@@ -2,16 +2,16 @@
   <div class="help-body" style="border: 1px solid transparent">
     <div class="center hh3">
       <div class="help-body1">
-        <p v-for="(item,idx) in list1" >
+        <p v-for="(item,idx) in list1" :key="idx" >
           <img :src="item.imgUrl" />
           <span>{{ item.title }}</span>
         </p>
  
         <p class="ing-25">1 基础信息维护</p>
-        <p class="ing-35" v-for="(item) in firstChildren" >
+        <p class="ing-35" v-for="(item) in firstChildren" :key="item" >
           <a class="a-none">{{ item }}</a>
         </p>
-        <p class="ing-1" v-for="(item) in menuList" >
+        <p class="ing-1" v-for="(item) in menuList" :key="item.id">
           {{ item.title }}
         </p>
        
@@ -21,7 +21,7 @@
         <div class="help-body2s">
           <ul class="ing-t20">
             菜单：系统设置-权限管理-角色管理
-            <li class="ing-352" v-for="(item) in lis" >{{item}}</li>
+            <li class="ing-352" v-for="(item) in lis" :key="item">{{item}}</li>
           </ul>
           <center><img src="@/assets/js1.png" class="js1" /></center>
           <center><img src="@/assets/js-2.png" class="js2" /></center>

@@ -34,10 +34,14 @@
 }
 	.centers{
 	width: 1200px;
-    margin: 20px auto;
-    border: 1px solid white;
+    margin: 50px auto;
+    /* border: 1px solid white; */
     display:flex;
     justify-content: space-between;
+  
+  height:100%;
+  width:100%;
+  
 	
 }
 	.space-texs{

@@ -66,12 +66,12 @@
 				</div>
 			</div>
 		</div>
-		<ul>
+		<!-- <ul>
 			<li v-for="(item,index) in leftList" :key="index">
 			<img  :src="require('@/assets/'+item.icon)" alt="" />
 			{{item.name}}
 			</li>
-		</ul>
+		</ul> -->
 	</div>
 </template>
 
@@ -197,7 +197,7 @@
 	.center {
 		width: 1200px;
 		margin: 0 auto;
-		border: 1px solid white;
+		/* border: 1px solid white; */
 		display: flex;
 		justify-content: space-between;
 	}

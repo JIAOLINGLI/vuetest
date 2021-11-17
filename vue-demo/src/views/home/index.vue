@@ -300,6 +300,11 @@ export default {
 		font-size:33px;
 		transition: .5s linear all;
 	}*/
+.banner{
+  width: 100%;
+  height: 100%;
+
+  }
 
 .oneList {
   width: 100%;
