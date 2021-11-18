@@ -367,7 +367,7 @@ export default {
   margin-top: 20px;
 }
 .banner-4 {
-  border: 1px solid white;
+ 
   display: flex;
 
   align-content: center;

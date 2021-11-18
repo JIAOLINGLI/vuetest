@@ -1,5 +1,5 @@
 <template>
-  <div class="help-body" style="border: 1px solid transparent">
+  <div class="help-body" >
     <div class="center hh3">
       <div class="help-body1">
         <p v-for="(item,idx) in list1" :key="idx" >
@@ -105,7 +105,7 @@ export default {
 	height: 600px;
 	background: rgb(255, 255, 255);
 	border: 1px solid white;
-    flex-shrink: 0;
+  flex-shrink: 0;
 }
 .help-body1 p{
    
